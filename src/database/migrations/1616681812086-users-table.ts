@@ -9,7 +9,8 @@ export class usersTable1616681812086 implements MigrationInterface {
         {
           name: 'id',
           type: 'uuid',
-          isPrimary: true
+          isPrimary: true,
+          isNullable: true,
         },
         {
           name: 'name',
